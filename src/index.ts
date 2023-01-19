@@ -16,5 +16,5 @@ httpServer.get('/healthz', (_, res) => {
 
 httpServer.listen(9000, () => {
   console.log('http server listening on :9000')
-  tcpServer.listen(90)
+  tcpServer.listen(80)
 })
